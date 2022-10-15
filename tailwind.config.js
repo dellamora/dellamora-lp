@@ -5,11 +5,8 @@ module.exports = {
   theme: {
     colors: {
       transparent: "transparent",
-      black: "#1B1A1A ",
-      texts: "#C5C5C5",
-      titles: "#FCFCFC",
-      redPrimary: "#F83941",
-      darkRed: "#D91A23",
+      primaryLight: "#f1ab7539",
+      primary: "#F1AB75",
     },
     extend: {
       padding: {

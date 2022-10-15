@@ -9,32 +9,33 @@ import Phone from "../../svgs/contact/Phone";
 
 const Contact: React.FC = (): JSX.Element => {
   return (
-    <section className="bg-[#FBFBFB] py-20 lg:py-[120px] overflow-hidden relative z-10">
-      <div className="container">
-        <div className="flex flex-wrap lg:justify-between -mx-4">
-          <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
-            <div className="bg-white relative rounded-lg p-8 sm:p-12 ">
-              <form>
-                <div className="mb-6">
-                  <input
-                    type="text"
-                    placeholder=" Name"
-                    className="
+    <section
+      id="contact"
+      className="bg-[#FBFBFB] py-20 lg:py-[120px] overflow-hidden relative z-10"
+    >
+      <div className="flex flex-wrap lg:justify-between -mx-4">
+        <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
+          <div className="bg-white relative rounded-lg p-8 sm:p-12 ">
+            <form>
+              <div className="mb-6">
+                <input
+                  type="text"
+                  placeholder=" Name"
+                  className="
                             w-full
                             rounded
                             py-3
                             px-[14px]
                             text-body-color text-base
                             outline-none
-                            focus-visible:shadow-none
-u                            "
-                  />
-                </div>
-                <div className="mb-6">
-                  <input
-                    type="email"
-                    placeholder=" Email"
-                    className="
+                            focus-visible:shadow-none  "
+                />
+              </div>
+              <div className="mb-6">
+                <input
+                  type="email"
+                  placeholder=" Email"
+                  className="
                             w-full
                             rounded
                             py-3
@@ -43,14 +44,14 @@ u                            "
                             outline-none
                             focus-visible:shadow-none
                             "
-                  />
-                </div>
+                />
+              </div>
 
-                <div className="mb-6">
-                  <textarea
-                    rows={6}
-                    placeholder=" Message"
-                    className="
+              <div className="mb-6">
+                <textarea
+                  rows={6}
+                  placeholder=" Message"
+                  className="
                             w-full
                             rounded
                             py-3
@@ -60,13 +61,13 @@ u                            "
                             outline-none
                             focus-visible:shadow-none
                             "
-                  ></textarea>
-                </div>
-                <div>
-                  <button
-                    type="submit"
-                    className="
-                            w-full
+                ></textarea>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  className="
+                             w-full
                             text-[#fff]
                             bg-[#F1AB75]
                             rounded
@@ -74,33 +75,34 @@ u                            "
                             transition
                             hover:bg-opacity-90
                             "
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
-              <div>
-                <span className="absolute -top-10 -right-9 z-[-1]"></span>
-                <span className="absolute -right-10 top-[90px] z-[-1]"></span>
+                >
+                  Send Message
+                </button>
               </div>
-            </div>
+            </form>
           </div>
-          <div>
-            <div>
-              <Address />
-              <p className="font-Inter text-bold">Address</p>
+        </div>
+        <div className="p-8 sm:p-12 ">
+          <div className="flex pb-[58px] items-center">
+            <Address />
+            <div className="ml-[24px] ">
+              <p className="font-Inter font-semibold ">Address</p>
               <span className="font-Inter">
                 3424 Layman Avenue, Fayetteville, NC
               </span>
             </div>
-            <div>
-              <Phone />
-              <p className="font-Inter text-bold">Phone</p>
+          </div>
+          <div className="flex pb-[58px] items-center">
+            <Phone />
+            <div className="ml-[24px]">
+              <p className="font-Inter font-semibold">Phone</p>
               <span className="font-Inter">(501) 414-1541</span>
             </div>
-            <div>
-              <Mail />
-              <p className="font-Inter text-bold">E-Mail</p>
+          </div>
+          <div className="flex items-center">
+            <Mail />
+            <div className="ml-[24px]">
+              <p className="font-Inter font-semibold">E-Mail</p>
               <span className="font-Inter">calebnyong02@gmail.com</span>
             </div>
           </div>

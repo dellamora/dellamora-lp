@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import React from "react";
+import { Title } from "../../../application/domain/components/Title";
 import AppIcon from "../../svgs/services/AppIcon";
 import CrownIcon from "../../svgs/services/CrownIcon";
 import WorldIcon from "../../svgs/services/WorldIcon";
@@ -10,21 +11,15 @@ import WorldIcon from "../../svgs/services/WorldIcon";
 const Services: React.FC = (): JSX.Element => {
   return (
     <div
+      id="specialized"
       className="
      my-10 p-[65px] 
      bg-[#FBFBFB]
      "
     >
       <div className="flex flex-col">
-        <div>
-          <div className="flex items-center justify-center">
-            <div className="h-0.5 w-4 bg-[#D9D9D9] justify-center" />
-            <span className="Inter text-4xl text-[#656D72] uppercase text-bold mx-3 justify-center">
-              SERVICES
-            </span>
-          </div>
-          <h1 className="text-2xl flex justify-center">Specialized in</h1>
-        </div>
+        <Title subChildren={"Specialized in"}> SERVICES</Title>
+
         <div
           className="
         flex 
