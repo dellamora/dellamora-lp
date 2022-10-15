@@ -6,14 +6,14 @@ import MoonIcon from "../../svgs/MoonIcon";
 
 const Header: React.FC = (): JSX.Element => {
   return (
-    <nav className="flex justify-between p-8 center">
-      <h1 className="text-2xl">Dellamora. </h1>
-      <ul className="flex space-x-3 text-xl items-center ">
+    <nav className="flex justify-between p-8 center w3-animate-opacity">
+      <h1 className="text-2xl w3-animate-left">Dellamora. </h1>
+      <ul className="flex space-x-3 text-xl items-center w3-animate-top">
         <li>Skills </li>
         <li>Blog </li>
         <li>Contact </li>
       </ul>
-      <div className="flex space-x-6 items-center ">
+      <div className="flex space-x-6 items-center w3-animate-right ">
         <MoonIcon width="17px" />
         <button
           className="

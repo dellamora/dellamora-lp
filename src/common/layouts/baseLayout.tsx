@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import React from "react";
-import Header from "../components/header";
+import Header from "../components/nav";
 
 /* import { Container } from "./styles"; */
 
