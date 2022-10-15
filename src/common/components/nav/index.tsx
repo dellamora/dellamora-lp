@@ -4,7 +4,7 @@ import React from "react";
 import MoonIcon from "../../svgs/MoonIcon";
 /* import { Container } from "./styles"; */
 
-const Header: React.FC = (): JSX.Element => {
+const Nav: React.FC = (): JSX.Element => {
   return (
     <nav className="flex justify-between p-8 center w3-animate-opacity">
       <h1 className="text-2xl w3-animate-left">Dellamora. </h1>
@@ -34,4 +34,4 @@ const Header: React.FC = (): JSX.Element => {
   );
 };
 
-export default Header;
+export default Nav;
