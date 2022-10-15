@@ -18,6 +18,7 @@ module.exports = {
     },
     fontFamily: {
       Frank: ["Frank Ruhl Libre", "sans-serif"],
+      Inter: ["Inter", "sans-serif"],
     },
     fontSize: {
       xl: [
