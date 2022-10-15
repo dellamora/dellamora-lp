@@ -11,9 +11,9 @@ const BaseLayout = ({
   children: React.ReactNode;
 }): JSX.Element => {
   return (
-    <div className="h-screen flex flex-col overflow-hidden bg-[#FFFFFF]">
+    <div className="h-screen flex flex-col  bg-[#FFFFFF]">
       <Header />
-      <div className="grow  p-[65px] ">{children}</div>
+      <div className="grow  ">{children}</div>
     </div>
   );
 };

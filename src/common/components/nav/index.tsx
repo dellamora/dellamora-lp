@@ -9,9 +9,10 @@ const Header: React.FC = (): JSX.Element => {
     <nav className="flex justify-between p-8 center w3-animate-opacity">
       <h1 className="text-2xl w3-animate-left">Dellamora. </h1>
       <ul className="flex space-x-3 text-xl items-center w3-animate-top">
-        <li>Skills </li>
+        <li>Specialized </li>
+        <li> Portfolio </li>
+        <li>Experices </li>
         <li>Blog </li>
-        <li>Contact </li>
       </ul>
       <div className="flex space-x-6 items-center w3-animate-right ">
         <MoonIcon width="17px" />
