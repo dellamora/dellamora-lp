@@ -8,7 +8,7 @@ import Twitter from "../../svgs/social/Twitter";
 import LinkedIn from "../../svgs/social/LinkedIn";
 /* import { Container } from "./styles"; */
 
-const Home: React.FC = (): JSX.Element => {
+const Header: React.FC = (): JSX.Element => {
   return (
     <div className="flex justify-between h-fit p-[65px]">
       <div>
@@ -73,4 +73,4 @@ const Home: React.FC = (): JSX.Element => {
   );
 };
 
-export default Home;
+export default Header;

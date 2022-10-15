@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import React from "react";
-import Header from "../components/nav";
+import Nav from "../components/nav";
 
 /* import { Container } from "./styles"; */
 
@@ -12,7 +12,7 @@ const BaseLayout = ({
 }): JSX.Element => {
   return (
     <div className="h-screen flex flex-col  bg-[#FFFFFF]">
-      <Header />
+      <Nav />
       <div className="grow  ">{children}</div>
     </div>
   );
