@@ -6,5 +6,6 @@ export type Icon<T extends Record<string, unknown> = Record<string, unknown>> =
       width?: `${number}${Metrics}`;
       active?: boolean;
       fill?: `${string}`;
+      onClick?: () => void;
     } & T,
   ) => JSX.Element;
