@@ -3,7 +3,7 @@
 import React from "react";
 import { Icon } from "../../../application/domain/components";
 /* import { Container } from "./styles"; */
-const GitHub: Icon = ({ fill }): JSX.Element => {
+const GitHub: Icon = ({ fill, onClick }): JSX.Element => {
   return (
     <svg
       width="20"

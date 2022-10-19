@@ -4,7 +4,7 @@ import React from "react";
 import { Icon } from "../../../application/domain/components";
 /* import { Container } from "./styles"; */
 
-const Twitter: Icon = ({ fill }): JSX.Element => {
+const Twitter: Icon = ({ fill, onClick }): JSX.Element => {
   return (
     <svg
       width="22"
