@@ -25,7 +25,7 @@ export const Section = ({
   }, [inView]);
 
   return (
-    <section className={`relative  p-[65px] h-screen ${bgColor}`} ref={ref}>
+    <section className={`relative  p-[65px] h-[90vh] ${bgColor}`} ref={ref}>
       <div id={id} className="absolute -top-[100px]"></div>
       {children}
     </section>

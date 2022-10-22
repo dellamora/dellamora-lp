@@ -13,6 +13,7 @@ const TechItem = (): JSX.Element => {
     { name: "Redux/Sagas" },
     { name: "Firebase" },
     { name: "Konva.React" },
+    { name: "Styled-Components" },
     { name: "MUI" },
     { name: "Bootstrap" },
     { name: "Figma" },
@@ -73,10 +74,9 @@ const TechItem = (): JSX.Element => {
           w-fit
           h-fit
           px-3 py-1
-          bg-[#656D72] 
+          bg-primary 
           hover:bg-gray-100 
           border 
-        border-[#656D72]
           rounded
           text-[#Fff]
           m-1 font-Inter text-gray-500 font-semibold"

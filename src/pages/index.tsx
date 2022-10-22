@@ -9,8 +9,6 @@ import Works from "../modules/works";
 import AppContext from "../common/context/appContext";
 
 const Home = (): JSX.Element => {
-  const ctx = useContext(AppContext);
-
   return (
     <>
       <Hero />

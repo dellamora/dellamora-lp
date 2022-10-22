@@ -14,12 +14,12 @@ const ProgressBar = ({ width }: Props): JSX.Element => {
   return (
     <>
       <motion.div
-        className="h-3 rounded w-full mb-5 bg-[#656d722d] origin-[0%] "
+        className="h-3 rounded w-full mb-5 bg-primaryLight origin-[0%] "
         transition={{ duration: 1, type: "spring", bounce: 0.25 }}
         variants={variants}
       >
         <motion.div
-          className={`h-full rounded ${width} mb-10 bg-[#656D72] origin-[0%]`}
+          className={`h-full rounded ${width} mb-10 bg-[#FDC892] origin-[0%]`}
           transition={{ delay: 0.4, duration: 1, type: "spring", bounce: 0.25 }}
           variants={variants}
         />

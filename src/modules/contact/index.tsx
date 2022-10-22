@@ -69,7 +69,7 @@ const Contact: React.FC = (): JSX.Element => {
                   className="
                              w-full
                             text-[#fff]
-                            bg-[black]
+                            bg-primary
                             rounded
                             p-3
                             transition

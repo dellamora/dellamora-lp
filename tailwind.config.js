@@ -10,9 +10,12 @@ module.exports = {
     colors: {
       transparent: "transparent",
       primaryLight: "#f1ab7539",
-      primary: "#F1AB75",
+      primary: "#FDC892",
     },
     extend: {
+      gridTemplateColumns: {
+        cards: "repeat(auto-fit, minmax(200px, 1fr))",
+      },
       padding: {
         "65px": "65px",
       },

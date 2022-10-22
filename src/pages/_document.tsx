@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta name="author" content="Francielle Dellamora" />
         <link
           rel="stylesheet"
           href="https://www.w3schools.com/w3css/4/w3.css"

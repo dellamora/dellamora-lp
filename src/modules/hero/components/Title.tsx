@@ -85,7 +85,7 @@ export const Title = ({ children, subTitle }: Props): JSX.Element => {
         {subTitle.split(" ").map((word, index) => {
           return (
             <motion.span
-              className="font-Frank text-2xl flex mr-2  "
+              className="font-Frank text-3xl flex mr-2  "
               ref={ref}
               aria-hidden="true"
               key={index}

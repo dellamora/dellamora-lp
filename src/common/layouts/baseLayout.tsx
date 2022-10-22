@@ -62,7 +62,7 @@ const BaseLayout = ({
   };
 
   const handleLinkHoverEvents = () => {
-    document.querySelectorAll("a,  button, .bg-inverse").forEach(el => {
+    document.querySelectorAll("a,  button, .bg-inverse, svg").forEach(el => {
       el.addEventListener("mouseover", () => setLinkHovered(true));
       el.addEventListener("mouseout", () => setLinkHovered(false));
     });

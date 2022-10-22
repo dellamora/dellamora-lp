@@ -1,15 +1,17 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Section, Title } from "../../common/components";
 import TechItem from "./components/TechItem";
 import { motion } from "framer-motion";
 import Paragraph from "./components/Paragraph";
+import LeftContent from "./components/LeftContent";
 
 const career: React.FC = (): JSX.Element => {
+  const [inView, setInview] = useState(false);
   const jobDescription = [
-    "Desenvolvi dois sitemas PWA",
-    "fiz gerenciamento de sprint e tasks ",
+    "Worked on the development of two PWA applications.",
+    "I was responsible for sprint and tasks management.",
     "padronizei arquiteura de um projeto e implementei tema global refatorei e criei components globais",
     " popularizei firebase",
     "consumo de apis",
@@ -23,19 +25,16 @@ const career: React.FC = (): JSX.Element => {
   const containerRef = useRef(null);
 
   return (
-    <Section id="experices">
+    <Section
+      id="experices"
+      setIsInView={isInView => {
+        setInview(current => isInView || current);
+      }}
+    >
       <Title subTitle="Work Experices">career path</Title>
-      <div className="sm:flex  mt-[100px] justify-center ">
-        <div className="sm:w-1/2 ">
-          <h1 className="font-Jakarta text-xl font-semibold ">
-            Front-end Developer
-          </h1>
-          <h1 className="font-Inter text-[#656D72]">
-            Venturus · Campinas, São Paulo <br /> Fev 2021 - Set 2022 · Home
-            office
-          </h1>
-        </div>
-        <div className="sm:w-1/2 space-y-3">
+      <motion.div className="flex flex-wrap  mt-[100px] justify-center space-y-12 ">
+        <LeftContent />
+        <motion.div className="sm:w-1/2 space-y-3">
           <motion.div
             initial={false}
             transition={{ staggerChildren: 0.07, delayChildren: 0.2 }}
@@ -49,8 +48,8 @@ const career: React.FC = (): JSX.Element => {
               <Paragraph key={i}>{description}</Paragraph>
             ))}
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </Section>
   );
 };
