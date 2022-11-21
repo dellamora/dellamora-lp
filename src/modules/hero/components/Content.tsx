@@ -6,6 +6,7 @@ import Instagram from "../../../common/svgs/social/Instagram";
 import GitHub from "../../../common/svgs/social/GitHub";
 import Twitter from "../../../common/svgs/social/Twitter";
 import LinkedIn from "../../../common/svgs/social/LinkedIn";
+import SendMail from "../../../common/svgs/social/sendMailer";
 /* import { Container } from "./styles"; */
 
 const Content: React.FC = (): JSX.Element => {
@@ -16,11 +17,13 @@ const Content: React.FC = (): JSX.Element => {
         enterprise companies and startups. Proficient in Html, Tailwind Css,
         Javascript and React. Passionate about UI/UX
       </p>
-      <div className="flex   lg:justify-start space-x-8 py-11">
+
+      <div className="flex lg:justify-start space-x-8 py-11">
         <Instagram />
         <GitHub />
         <Twitter />
         <LinkedIn />
+        <SendMail width="25px" className="stroke-[#2c3e50]" />
       </div>
     </div>
   );

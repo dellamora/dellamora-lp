@@ -6,7 +6,6 @@ import Footer from "../modules/footer";
 import Hero from "../modules/hero";
 import Skills from "../modules/skills";
 import Works from "../modules/works";
-import AppContext from "../common/context/appContext";
 
 const Home = (): JSX.Element => {
   return (

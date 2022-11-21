@@ -10,7 +10,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       primaryLight: "#f1ab7539",
-      primary: "#FDC892",
+      primary: "#000",
     },
     extend: {
       gridTemplateColumns: {

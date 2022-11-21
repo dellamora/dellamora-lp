@@ -90,18 +90,12 @@ const Contact: React.FC = (): JSX.Element => {
               <span className="font-Inter">Rio Grade do Sul, Brazil</span>
             </div>
           </div>
-          <div className="flex lg:ml-36 gap-12 items-center">
-            <Phone />
-            <div>
-              <p className="font-Inter font-semibold">Phone</p>
-              <span className="font-Inter">(501) 414-1541</span>
-            </div>
-          </div>
+
           <div className="flex lg:ml-36 gap-12 items-center">
             <Mail />
             <div>
               <p className="font-Inter font-semibold">E-Mail</p>
-              <span className="font-Inter">calebnyong02@gmail.com</span>
+              <span className="font-Inter">francielle@dellamora.dev</span>
             </div>
           </div>
         </div>

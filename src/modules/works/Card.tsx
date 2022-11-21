@@ -1,12 +1,16 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import React from "react";
-import { CardList } from "./components/utils/CardList";
+import { Title } from "./components/card/Title";
 
 /* import { Container } from "./styles"; */
 
 const Cards: React.FC = (): JSX.Element => {
-  return <div>oio</div>;
+  return (
+    <div>
+      <Title title={"aaaa"} category={"dsds"} isSelected={false}></Title>;
+    </div>
+  );
 };
 
 export default Cards;
